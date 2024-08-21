@@ -341,15 +341,16 @@ select {
   background: radial-gradient(#fbc1cc, #fe85a3);
 }
 
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 100px;
+  right: auto;
+}
 .background-img{
-  background: url(./assets/background-pattern.svg);
+  background: url(./assets/Animated\ bg\ fps10.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
   background-color: #fff;
-  /* margin: 0;
-  padding: 0;
-  border: 2px solid red; */
 }
 
 .card {
@@ -1027,7 +1028,7 @@ select {
 }
 
 .swiper-pagination-bullet {
-  /* background-color: red; */
+  background-color: red;
   border: 2px solid white;
   width: 15px;
   height: 1px; 
@@ -1035,6 +1036,7 @@ select {
 
 .swiper-pagination-bullet-active {
   border: none;
+  color: var(--dark-cyan);
 }
 
 .swiper-slide i {
